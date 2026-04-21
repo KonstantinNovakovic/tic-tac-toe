@@ -1,17 +1,20 @@
 # Tic Tac Toe
 
-A browser-based Tic Tac Toe game built with vanilla JavaScript. One of the projects from [The Odin Project](https://www.theodinproject.com/) curriculum.
-
+A console-based Tic Tac Toe game built with vanilla JavaScript. One of the projects from [The Odin Project](https://www.theodinproject.com/) curriculum.
 
 ## About
 
-Two-player Tic Tac Toe played in the browser. Players take turns marking X and O on a 3x3 grid — first to get three in a row wins.
+Two-player Tic Tac Toe played in the browser console. Players take turns marking X and O on a 3x3 grid — first to get three in a row wins.
+
+## Status
+
+🚧 Work in progress — game logic complete, UI not yet implemented.
 
 ## Features
 
-- Two-player local gameplay (X vs O)
+- Two-player gameplay via the browser console
 - Win and draw detection
-- Restart button to reset the board
+- Game state tracked in a gameboard array
 
 ## How to Run
 
@@ -20,21 +23,17 @@ Two-player Tic Tac Toe played in the browser. Players take turns marking X and O
    git clone https://github.com/KonstantinNovakovic/tic-tac-toe.git
 ```
 2. Open `index.html` in a browser.
-
-No build step or dependencies needed.
+3. Open the browser console (F12) and play from there.
 
 ## Tech Stack
 
-- HTML
-- CSS
 - Vanilla JavaScript
 
 ## What I Practiced
 
 - Module pattern and factory functions
-- Separating game logic from DOM manipulation
-- IIFE for encapsulation
-- Event-driven programming
+- Separating game logic from display logic
+- Win condition algorithms
 
 ## Project Source
 
